@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  border: 1px solid rgb(218, 210, 210);
+  width:320px;
+  height: 500px;
+  max-height:500px;
+  overflow:auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+
+
+.list{
+  
+    list-style-type: none;
+    margin-left:0;
+    align-items: center;
+   
+  
+}
+.task{
+  border: 1px solid rgb(172, 131, 131);
+  border-radius: 10px;
+  background-color: rgb(59, 145, 173);
+  color: black;
+  width: 300px;
+  display: flex;
+ 
+  align-items: center;
+  height:40px;
+  margin: 5px;
+  padding-left:10px;
+
+  
+}
+
+p.taskTitle{
+  color:rgb(7, 1, 1);
+margin:0 ;
+}
+
+
+.work{
+  display: flex;
+ 
+  text-align:center;
+}
+.list-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content:center;
+}
+
+.add {
+  margin-left: 7px;
+}
+
+.hide {
+ color:rgba(240, 248, 255, 0.897)
+}
+    
+.hide:hover {
+  color: rgb(231, 12, 12);
+}
+.heading {
+  margin: 15px 15px;
+}
